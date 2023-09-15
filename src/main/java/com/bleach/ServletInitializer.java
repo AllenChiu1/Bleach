@@ -1,4 +1,4 @@
-package com.bleach.Bleach;
+package com.bleach;
 //package com.bleach.Bleach;
 //
 //import org.springframework.boot.builder.SpringApplicationBuilder;

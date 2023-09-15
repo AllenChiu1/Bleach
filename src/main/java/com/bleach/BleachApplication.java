@@ -1,4 +1,4 @@
-package com.bleach.Bleach;
+package com.bleach;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,9 +1,9 @@
-package com.bleach.Bleach.repositories;
+package com.bleach.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.bleach.Bleach.entity.CustomerEntity;
+import com.bleach.entity.CustomerEntity;
 
 @Repository
 public interface CustomerRepository extends JpaRepository<CustomerEntity, String>{
