@@ -6,7 +6,7 @@ import com.bleach.vo.res.LoginResVO;
 
 public interface LoginService {
 	
-	public LoginResVO startAction(LoginReqVO loginReqVO);
+	public LoginResVO startAction(LoginReqVO loginReqVO) throws Exception;
 	
-	public CustomerEntity getUserInfo(String custId, String loginAcnt, String custPwd);
+	public CustomerEntity getUserInfo(String loginAcnt, String custPwd);
 }

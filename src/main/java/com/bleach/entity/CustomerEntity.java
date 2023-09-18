@@ -12,13 +12,14 @@ import jakarta.persistence.Table;
 public class CustomerEntity {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Column(name="CUST_LOGIN_ACNT")
+	private String loginAcnt;
+	@Column(name="CUST_ID")
 	private String custId;
 	@Column(name="CUST_NAME")
 	private String custName;
 	@Column(name="CUST_ZODIAC_SIGN")
 	private String custZodiacSign;
-	@Column(name="CUST_LOGIN_ACNT")
-	private String loginAcnt;
 	@Column(name="CUST_PWD")
 	private String custPwd;
 	@Column(name="CUST_ADDRESS")

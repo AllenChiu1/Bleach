@@ -20,7 +20,7 @@ public class LoginController {
 	private LoginService loginService;
 
 	@PostMapping("/Login")
-	public ResponseEntity<LoginResVO> doAction(@RequestBody LoginReqVO loginReqVO) {
+	public ResponseEntity<LoginResVO> doAction(@RequestBody LoginReqVO loginReqVO) throws Exception {
 		LoginResVO loginResVO = new LoginResVO();
 		loginResVO = loginService.startAction(loginReqVO);
 		return ResponseEntity.status(HttpStatus.OK).body(loginResVO);
